@@ -1,0 +1,54 @@
+// bower:scss
+// endbower
+
+@import 'variables';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: 0;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+em {
+  // font-style: italic;
+}
+
+.nowrap {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+// .link {
+//   position: relative;
+//   text-decoration: none;
+
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     right: 0;
+//     bottom: -2px;
+//     left: 0;
+//     height: 2px;
+//   }
+// }
