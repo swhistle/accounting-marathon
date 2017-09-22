@@ -1,0 +1,10 @@
+.contests__title {
+  display: inline-block;
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contests__item {
+  margin-bottom: 25px;
+}

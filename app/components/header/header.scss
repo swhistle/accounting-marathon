@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.header {
+  background-color: $color-background;
+
+  border: 2px solid $color-blue;
+
+  &__logo-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &__date {
+    display: block;
+    text-align: center;
+  }
+
+  &__title {
+    text-align: center;
+  }
+}

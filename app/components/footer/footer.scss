@@ -1,0 +1,14 @@
+@import '../../styles/variables';
+
+.footer {
+  background-color: #fff;
+
+  &__container {
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}

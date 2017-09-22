@@ -10,18 +10,20 @@
   </head>
   <body>
   <header class="header">
-    <img src="logo.png" class="header__logo" alt="Главбух">
-    <ul class="social-links">
-      <li class="social-links__container">
-        <a href="#" class="social-link social-link--ok" title="">OK</a>
-      </li>
-      <li class="social-links__container">
-        <a href="#" class="social-link social-link--fb" title="">FB</a>
-      </li>
-      <li class="social-links__container">
-        <a href="#" class="social-link social-link--vk" title="">VK</a>
-      </li>
-    </ul>
+    <div class="header__logo-container">
+      <img src="images/logo.png" class="header__logo" alt="Главбух">
+      <ul class="social-links">
+        <li class="social-links__container">
+          <a href="#" class="social-link social-link--ok" title="">OK</a>
+        </li>
+        <li class="social-links__container">
+          <a href="#" class="social-link social-link--fb" title="">FB</a>
+        </li>
+        <li class="social-links__container">
+          <a href="#" class="social-link social-link--vk" title="">VK</a>
+        </li>
+      </ul>
+    </div>
     <div class="wrapper">
       <span class="header__date">21 апреля</span>
       <h1 class="header__title">Бухгалтерский марафон</h1>
@@ -31,9 +33,9 @@
   <main class="main">
     <div class="wrapper">
       <p class="main__description">
-        21 апреля в честь Дня Главбуха мы проводим первый в истории Бухгалтерский марафон.
-        Ведущие эксперты по бухучету и налогам весь день будут отвечать
-        на самые сложные рабочие вопросы.
+        <span>21 апреля в честь Дня Главбуха мы проводим первый в истории Бухгалтерский марафон.</span>
+        <span>Ведущие эксперты по бухучету и налогам весь день будут отвечать</span>
+        <span>на самые сложные рабочие вопросы.</span>
       </p>
       <span class="main__schedule">Расписание</span>
 
@@ -120,12 +122,13 @@
       </section>
 
       <a href="#" class="link link--sign-up" title="Зарегистрироваться">Зарегистрироваться</a>
+      <br>
       <a href="#" class="link link--red-arrow" title="">Розыгрыш призов и подарков</a>
     </div>
   </main>
 
   <footer class="footer">
-    <div class="wrapper">
+    <div class="footer__container wrapper">
       <section class="contests">
         <span class="contests__title">Конкурсы и призы</span>
         <ul class="contests__list">

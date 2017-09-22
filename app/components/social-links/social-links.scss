@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.social-links {
+  border: 2px solid red;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}

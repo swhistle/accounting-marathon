@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+
+  &--sign-up {
+    width: 370px;
+    height: 75px;
+    padding-top: 25px;
+    color: #fff;
+    background: url('../images/button-sign-up.png') no-repeat;
+    background-size: contain;
+    margin-bottom: 30px;
+  }
+}

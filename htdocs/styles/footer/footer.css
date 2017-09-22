@@ -1,0 +1,17 @@
+.footer {
+  background-color: #fff;
+}
+
+.footer__container {
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
