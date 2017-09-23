@@ -92,6 +92,15 @@
   opacity: 0.7;
 }
 
+.link--show-less {
+  display: none;
+}
+
+.link--show-less::after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .header {
   background-color: #ebebeb;
   padding-bottom: 20px;
@@ -424,15 +433,65 @@
   border: 10px solid #ebebeb;
 }
 
+.contests {
+  text-align: center;
+}
+
 .contests__title {
   display: inline-block;
   font-size: 28px;
   line-height: 1.5;
+  color: #000;
   margin-bottom: 20px;
+}
+
+.contests__list {
+  height: 225px;
+  overflow: hidden;
 }
 
 .contests__item {
   margin-bottom: 25px;
+}
+
+.contests__item-main-info {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.contests__time {
+  display: inline-block;
+  margin-right: 20px;
+  letter-spacing: -0.1px;
+  font-weight: bold;
+}
+
+.contests__description {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -0.1px;
+}
+
+.contests__description:hover, .contests__description:active {
+  color: #000;
+}
+
+.contests__item-add-info {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.contests__gift {
+  display: inline-block;
+  letter-spacing: -0.1px;
+}
+
+.contests__winners {
+  display: inline-block;
+  color: #9b9b9b;
+  letter-spacing: -0.1px;
 }
 
 .copyright {
