@@ -1,5 +1,4 @@
 .social-links {
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,4 +10,22 @@
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+
+.social-links__container {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #e02222;
+  border-radius: 50%;
+  font-size: 0;
+  margin: 0 5px;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.social-links__container:hover, .social-links__container:active {
+  opacity: 0.7;
 }

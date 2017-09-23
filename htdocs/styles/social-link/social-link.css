@@ -1,0 +1,19 @@
+.social-link {
+  display: inline-block;
+  font-size: 0;
+  width: 32px;
+  height: 32px;
+  background: url("../../images/spritesheet.png");
+}
+
+.social-link--ok {
+  background-position: -145px 5px;
+}
+
+.social-link--fb {
+  background-position: -125px 5px;
+}
+
+.social-link--vk {
+  background-position: -165px 6px;
+}

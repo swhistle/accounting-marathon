@@ -2,8 +2,7 @@
 
 .header {
   background-color: $color-background;
-
-  border: 2px solid $color-blue;
+  padding-bottom: 20px;
 
   &__logo-container {
     display: flex;
@@ -12,12 +11,26 @@
     align-items: flex-start;
   }
 
+  &__logo {
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
   &__date {
     display: block;
     text-align: center;
+    color: $color-text-date;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 45px;
+    line-height: 1.2;
   }
 
   &__title {
     text-align: center;
+    color: $color-title;
+    font-size: 75px;
+    line-height: 1.2;
+    font-family: serif;
   }
 }
