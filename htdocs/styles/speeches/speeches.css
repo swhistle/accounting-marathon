@@ -1,5 +1,4 @@
 .speeches {
-  outline: 2px solid blue;
   margin-bottom: 20px;
 }
 
@@ -24,4 +23,10 @@
 .speeches__item {
   width: calc((100% - 36px)/3);
   margin-bottom: 35px;
+}
+
+.speeches__link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }

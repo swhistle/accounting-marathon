@@ -1,11 +1,11 @@
-.main {
+.main-page {
   background-color: #ebebeb;
   text-align: center;
   padding-bottom: 65px;
 }
 
-.main__description {
-  max-width: 700px;
+.main-page__description {
+  max-width: 750px;
   margin: 0 auto;
   text-align: center;
   display: -webkit-box;
@@ -22,8 +22,30 @@
   margin-bottom: 40px;
 }
 
-.main__schedule {
+.main-page__description span {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: -0.1px;
+}
+
+.main-page__schedule {
   display: inline-block;
   padding-left: 50px;
   margin-bottom: 50px;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #e02222;
+  position: relative;
+}
+
+.main-page__schedule::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 33px;
+  height: 29px;
+  background: url("../../images/spritesheet.png") no-repeat;
+  background-position: -195px 0;
 }

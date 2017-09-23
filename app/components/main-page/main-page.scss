@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.main-page {
+  background-color: $color-background;
+  text-align: center;
+  padding-bottom: 65px;
+
+  &__description {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    jusify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+
+    span {
+      font-size: 18px;
+      line-height: 1.4;
+      letter-spacing: -0.1px;
+    }
+  }
+
+  &__schedule {
+    display: inline-block;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    line-height: 1.2;
+    color: $color-social-link;
+    position: relative;
+
+    &::before {
+      display: block;
+      content: '';
+      position: absolute;
+      top: -3px;
+      left: 0;
+      width: 33px;
+      height: 29px;
+      background: url('../../images/spritesheet.png') no-repeat;
+      background-position: -195px 0;
+    }
+  }
+}
