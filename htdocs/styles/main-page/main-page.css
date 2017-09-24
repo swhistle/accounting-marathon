@@ -1,5 +1,7 @@
 .main-page {
+  display: block;
   background-color: #ebebeb;
+  background-image: linear-gradient(to right, rgba(170, 170, 170, 0.3), transparent, rgba(170, 170, 170, 0.3));
   text-align: center;
   padding-bottom: 65px;
   position: relative;

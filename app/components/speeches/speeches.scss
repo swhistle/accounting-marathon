@@ -22,5 +22,7 @@
     display: block;
     text-decoration: none;
     color: inherit;
+    position: relative;
+    z-index: 10;
   }
 }

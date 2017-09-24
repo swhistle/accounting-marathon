@@ -1,5 +1,6 @@
 .header {
   background-color: #ebebeb;
+  background-image: linear-gradient(to right, rgba(170, 170, 170, 0.3), transparent, rgba(170, 170, 170, 0.3));
   padding-bottom: 20px;
 }
 

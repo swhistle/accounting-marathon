@@ -1,7 +1,9 @@
 @import '../../styles/variables';
 
 .main-page {
+  display: block;
   background-color: $color-background;
+  background-image: linear-gradient(to right, rgba(#aaa, 0.3), transparent, rgba(#aaa, 0.3));
   text-align: center;
   padding-bottom: 65px;
   position: relative;
