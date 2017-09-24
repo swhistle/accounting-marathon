@@ -7,6 +7,9 @@
     <title>Бухгалтерский марафон</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/style-index.css">
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
   </head>
   <body>
   <header class="header">
@@ -230,17 +233,24 @@
     </div>
   </footer>
 
-  <!-- build:js scripts/main.js -->
-  <script src="scripts/main.js"></script>
-  <!-- endbuild -->
+  <div class="message-old-browser js-message">
+    <span>Возможно, Вы пользуетесь устаревшей версией браузера, и содержимое сайта может некорректно отображаться.</span>
+    <a href="https://help.dnevnik.ru/hc/ru/articles/203475688-%D0%9A%D0%B0%D0%BA-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80-" title="Обновить браузер">Вы можете обновить Ваш браузер!</a>
+    <a href="javascript:void(0);" class="message-old-browser__btn-close js-message-close" title="Закрыть сообщение">Закрыть</a>
+  </div>
+
   <!-- build:js scripts/vendor/jquery.min.js -->
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <!-- endbuild -->
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
   <!-- endbuild -->
   <!-- build:js scripts/vendor/slick-carousel.js -->
   <script src="/bower_components/slick-carousel/slick/slick.js"></script>
   <!-- endbuild -->
 
   <script src="scripts/slider/slider.js"></script>
+  <script src="scripts/message-old-browser/message-old-browser.js"></script>
 
   </body>
 </html>

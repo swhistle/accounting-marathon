@@ -600,3 +600,52 @@
 .copyright__link:hover, .copyright__link:active {
   opacity: 0.7;
 }
+
+.message-old-browser {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(247, 254, 24, 0.5);
+  text-align: center;
+  padding: 10px;
+  z-index: 200;
+  color: #000;
+  font-size: 18px;
+}
+
+.message-old-browser__btn-close {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  text-decoration: none;
+  font-size: 0;
+  cursor: pointer;
+  z-index: 220;
+}
+
+.message-old-browser__btn-close::before, .message-old-browser__btn-close::after {
+  display: inline-block;
+  position: absolute;
+  z-index: 225;
+  content: '';
+  top: 50%;
+  right: 0;
+  width: 15px;
+  height: 2px;
+  background-color: #000;
+}
+
+.message-old-browser__btn-close::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.message-old-browser__btn-close::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}

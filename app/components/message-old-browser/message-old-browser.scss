@@ -1,0 +1,49 @@
+@import '../../styles/variables';
+
+.message-old-browser {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(#f7fe18, 0.5);
+  text-align: center;
+  padding: 10px;
+  z-index: 200;
+  color: #000;
+  font-size: 18px;
+
+  &__btn-close {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    text-decoration: none;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 220;
+
+    &::before,
+    &::after {
+      display: inline-block;
+      position: absolute;
+      z-index: 225;
+      content: '';
+      top: 50%;
+      right: 0;
+      width: 15px;
+      height: 2px;
+      background-color: #000;
+    }
+
+    &::before {
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+}
