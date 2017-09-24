@@ -82,7 +82,7 @@
   background-position: -36px 4px;
 }
 
-.link--red-arrow:hover {
+.link--red-arrow:hover, .link--red-arrow:active {
   opacity: 0.7;
 }
 

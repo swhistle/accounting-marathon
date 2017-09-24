@@ -81,7 +81,8 @@
       background-position: -36px 4px;
     }
 
-    &:hover {
+    &:hover,
+    &:active {
       opacity: 0.7;
     }
   }
