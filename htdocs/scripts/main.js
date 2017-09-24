@@ -1,17 +1,1 @@
-'use strict';
-
-function go(path) {
-  window.open(path, '_self');
-}
-
-if (/Android /.test(navigator.appVersion)) {
-  window.addEventListener('resize', function () {
-    var activeElement = document.activeElement.tagName;
-
-    if (activeElement === 'INPUT' || activeElement === 'TEXTAREA') {
-      window.setTimeout(function () {
-        document.activeElement.scrollIntoViewIfNeeded();
-      }, 0);
-    }
-  });
-}
+function go(e){window.open(e,"_self")}/Android /.test(navigator.appVersion)&&window.addEventListener("resize",function(){var e=document.activeElement.tagName;"INPUT"!==e&&"TEXTAREA"!==e||window.setTimeout(function(){document.activeElement.scrollIntoViewIfNeeded()},0)});

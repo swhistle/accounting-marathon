@@ -1,5 +1,69 @@
 .slider {
-  width: 500px;
-  height: 280px;
-  border: 10px solid #ebebeb;
+  width: 480px;
+  height: 260px;
+  outline: 10px solid #ebebeb;
+  cursor: pointer;
+  position: relative;
+  font-size: 0;
+}
+
+.slider__list {
+  list-style-type: none;
+  height: 260px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.slider__item {
+  width: 480px;
+  height: 260px;
+  display: inline-block;
+  vertical-align: middle;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slider__item img {
+  width: 100%;
+  height: auto;
+}
+
+.slick-dots {
+  display: block;
+  position: absolute;
+  bottom: -46px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 10px;
+}
+
+.slick-dots li button {
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  background: #e1e1e1;
+  outline: 0;
+  border: 0;
+  border-radius: 50%;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #e02222;
+}
+
+.slick-list {
+  overflow: hidden;
 }
