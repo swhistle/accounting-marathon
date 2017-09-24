@@ -3,6 +3,40 @@
 
 @import 'variables';
 
+@font-face {
+  font-family: 'Circe-Regular';
+  src: url("../fonts/Circe-Regular.eot");
+  src:
+    url("../fonts/Circe-Regular.ttf") format("truetype"),
+    url("../fonts/Circe-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe-Regular';
+  src: url("../fonts/Circe-Bold.eot");
+  src:
+    url("../fonts/Circe-Bold.ttf") format("truetype"),
+    url("../fonts/Circe-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFCentroSlabPro';
+  src: url("fonts/PF_Centro_Slab_Pro.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Amazing_Grotesk';
+  src: url("../fonts/Amazing_Grotesk_Demi.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
@@ -13,7 +47,7 @@ body {
   display: block;
   margin: 0;
   background: #fff;
-  font-family: 'Arial', sans-serif;
+  font-family: $font-family-circle;
   font-weight: normal;
   font-style: normal;
   color: $color-text-primary;

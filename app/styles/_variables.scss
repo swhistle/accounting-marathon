@@ -1,10 +1,6 @@
-$tablet: 600px;
-$desktop: 1024px;
-$desktop-big: 1400px;
-
-$media-screen-tablet: '(min-width: #{$tablet})';
-$media-screen-desktop: '(min-width: #{$desktop + 1})';
-$media-screen-desktop-big: '(min-width: #{$desktop-big})';
+$font-family-circle: 'Circe-Regular', sans-serif;
+$font-family-pfcentro: 'PFCentroSlabPro', serif;
+$font-family-amazing: 'Amazing_Grotesk', serif;
 
 $color-text-primary: #5f5b5b;
 $color-title: #f94f33;

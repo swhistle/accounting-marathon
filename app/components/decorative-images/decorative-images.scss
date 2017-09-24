@@ -1,0 +1,28 @@
+@import '../../styles/variables';
+
+.decorative-images {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  img {
+    display: block;
+    position: absolute;
+    z-index: 1;
+
+    &:first-child {
+      top: -110px;
+      left: 0;
+    }
+
+    &:last-child {
+      top: -135px;
+      right: 0;
+    }
+  }
+}

@@ -25,7 +25,7 @@
 .header__date {
   display: block;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Lobster', cursive;
   font-style: italic;
   font-size: 45px;
   line-height: 1.2;
@@ -36,5 +36,5 @@
   color: #f94f33;
   font-size: 75px;
   line-height: 1.2;
-  font-family: serif;
+  font-family: "PFCentroSlabPro", serif;
 }

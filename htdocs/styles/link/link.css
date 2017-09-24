@@ -10,14 +10,15 @@
   height: 77px;
   padding-top: 25px;
   color: #fff;
-  font-size: 0px;
+  font-size: 0;
   line-height: 1.2;
-  letter-spacing: 0.3px;
   background: url("../images/button-sign-up.png") no-repeat;
   background-size: contain;
   z-index: 10;
   margin-bottom: 30px;
   position: relative;
+  font-family: "Amazing_Grotesk", serif;
+  letter-spacing: 1.3px;
 }
 
 .link--sign-up::before {
@@ -33,6 +34,7 @@
   height: 100%;
   z-index: 30;
   transition: 0.3s ease;
+  letter-spacing: 1.3px;
 }
 
 .link--sign-up::after {

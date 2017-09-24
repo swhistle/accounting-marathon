@@ -1,0 +1,26 @@
+.decorative-images {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.decorative-images img {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.decorative-images img:first-child {
+  top: -110px;
+  left: 0;
+}
+
+.decorative-images img:last-child {
+  top: -135px;
+  right: 0;
+}

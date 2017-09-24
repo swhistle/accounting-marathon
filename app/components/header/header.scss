@@ -19,7 +19,7 @@
   &__date {
     display: block;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Lobster', cursive;
     font-style: italic;
     font-size: 45px;
     line-height: 1.2;
@@ -30,6 +30,6 @@
     color: $color-title;
     font-size: 75px;
     line-height: 1.2;
-    font-family: serif;
+    font-family: $font-family-pfcentro;
   }
 }
