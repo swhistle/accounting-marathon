@@ -16,14 +16,14 @@
 
 @font-face {
   font-family: 'PFCentroSlabPro';
-  src: url("fonts/PF_Centro_Slab_Pro.ttf");
+  src: url("../fonts/PF-Centro-Slab-Pro.ttf");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Amazing_Grotesk';
-  src: url("../fonts/Amazing_Grotesk_Demi.ttf");
+  src: url("../fonts/Amazing-Grotesk-Demi.otf");
   font-weight: bold;
   font-style: normal;
 }
