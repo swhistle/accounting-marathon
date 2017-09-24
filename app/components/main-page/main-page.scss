@@ -21,7 +21,7 @@
 
     span {
       font-size: 18px;
-      line-height: 1.4;
+      line-height: 1.2;
       letter-spacing: -0.1px;
     }
   }
@@ -29,11 +29,13 @@
   &__schedule {
     display: inline-block;
     padding-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-size: 22px;
     line-height: 1.2;
     color: $color-social-link;
     position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
 
     &::before {
       display: block;

@@ -18,6 +18,10 @@
           align-items: flex-start;
 }
 
+.header__text-container {
+  margin-top: -10px;
+}
+
 .header__logo {
   margin-top: 20px;
   margin-left: 25px;
