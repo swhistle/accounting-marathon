@@ -3,27 +3,27 @@
 }
 
 .speech--1 .speech__preview {
-  background-image: url("../../images/speech1.jpg");
+  background-image: url("../images/speech1.jpg");
 }
 
 .speech--2 .speech__preview {
-  background-image: url("../../images/speech2.jpg");
+  background-image: url("../images/speech2.jpg");
 }
 
 .speech--3 .speech__preview {
-  background-image: url("../../images/speech3.jpg");
+  background-image: url("../images/speech3.jpg");
 }
 
 .speech--4 .speech__preview {
-  background-image: url("../../images/speech4.jpg");
+  background-image: url("../images/speech4.jpg");
 }
 
 .speech--5 .speech__preview {
-  background-image: url("../../images/speech5.jpg");
+  background-image: url("../images/speech5.jpg");
 }
 
 .speech--6 .speech__preview {
-  background-image: url("../../images/speech6.jpg");
+  background-image: url("../images/speech6.jpg");
 }
 
 .speech__preview {
@@ -65,7 +65,7 @@
           transform: translateX(-50%) translateY(-50%);
   width: 28px;
   height: 31px;
-  background-image: url("../../images/spritesheet.png");
+  background-image: url("../images/spritesheet.png");
   background-repeat: no-repeat;
   background-position: -238px 0px;
   opacity: 0.7;

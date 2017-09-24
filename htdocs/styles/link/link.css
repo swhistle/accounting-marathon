@@ -80,7 +80,7 @@
   height: 23px;
   border: 2px solid #e02222;
   border-radius: 50%;
-  background-image: url("../../images/spritesheet.png");
+  background-image: url("../images/spritesheet.png");
   background-repeat: no-repeat;
   background-position: -36px 4px;
 }
