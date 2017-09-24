@@ -1,9 +1,9 @@
 @import '../../styles/variables';
 
 .slider {
-  width: 480px;
-  height: 260px;
-  outline: 10px solid $color-background;
+  width: 500px;
+  height: 280px;
+  border: 10px solid $color-background;
   cursor: pointer;
   position: relative;
   font-size: 0;

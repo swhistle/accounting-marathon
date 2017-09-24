@@ -14,9 +14,9 @@
     line-height: 1.2;
     background: url('../images/button-sign-up.png') no-repeat;
     background-size: contain;
+    position: relative;
     z-index: 10;
     margin-bottom: 30px;
-    position: relative;
     font-family: $font-family-amazing;
     letter-spacing: 1.3px;
 
@@ -66,6 +66,7 @@
     line-height: 1.25;
     color: $color-social-link;
     position: relative;
+    z-index: 10;
     transition: 0.3s ease;
 
     &::after {

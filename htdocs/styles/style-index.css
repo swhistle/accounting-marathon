@@ -20,9 +20,9 @@
   line-height: 1.2;
   background: url("../images/button-sign-up.png") no-repeat;
   background-size: contain;
+  position: relative;
   z-index: 10;
   margin-bottom: 30px;
-  position: relative;
   font-family: "Amazing_Grotesk", serif;
   letter-spacing: 1.3px;
 }
@@ -72,6 +72,7 @@
   line-height: 1.25;
   color: #e02222;
   position: relative;
+  z-index: 10;
   transition: 0.3s ease;
 }
 
@@ -469,9 +470,9 @@
 }
 
 .slider {
-  width: 480px;
-  height: 260px;
-  outline: 10px solid #ebebeb;
+  width: 500px;
+  height: 280px;
+  border: 10px solid #ebebeb;
   cursor: pointer;
   position: relative;
   font-size: 0;
