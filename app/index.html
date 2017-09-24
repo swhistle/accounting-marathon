@@ -148,7 +148,7 @@
     <div class="footer__container wrapper">
       <section class="contests">
         <span class="contests__title">Конкурсы и призы</span>
-        <ul class="contests__list">
+        <ul class="contests__list js-contests">
           <li class="contests__item">
             <div class="contests__item-main-info">
               <span class="contests__time">10:15</span>
@@ -204,8 +204,8 @@
             </div>
           </li>
         </ul>
-        <a href="javascript:void(0);" class="link link--red-arrow link--show-more" title="Показать еще больше конкурсов">Загрузить больше</a>
-        <a href="javascript:void(0);" class="link link--red-arrow link--show-less" title="Показать еще больше конкурсов">Свернуть</a>
+        <a href="javascript:void(0);" class="link link--red-arrow link--show-more js-show-more-contests" title="Показать еще больше конкурсов">Загрузить больше</a>
+        <a href="javascript:void(0);" class="link link--red-arrow link--show-less js-show-less-contests" title="Показать меньше конкурсов">Свернуть</a>
       </section>
 
       <div class="slider">
@@ -249,6 +249,7 @@
   <script src="/bower_components/slick-carousel/slick/slick.js"></script>
   <!-- endbuild -->
 
+  <script src="scripts/contests/contests.js"></script>
   <script src="scripts/slider/slider.js"></script>
   <script src="scripts/message-old-browser/message-old-browser.js"></script>
 

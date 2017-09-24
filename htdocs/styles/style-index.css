@@ -512,6 +512,11 @@
 .contests__list {
   height: 225px;
   overflow: hidden;
+  transition: 1s ease;
+}
+
+.contests__list.active {
+  height: auto;
 }
 
 .contests__item {
